@@ -14,7 +14,9 @@ public class Person {
         setName(name);
         setAge(age);
         setEmail(email);
-        this.birthDate = obj;
+        birthDate.setDay(obj.getDay());
+        birthDate.setMonth(obj.getMonth());
+        birthDate.setYear(obj.getYear());
     }
 
     public String getName() {
