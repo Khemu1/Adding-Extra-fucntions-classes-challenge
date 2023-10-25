@@ -17,8 +17,8 @@ public class Main {
 
             switch (choice) {
                 case "1"-> {
-                    System.err.println("Please enter your data as follows: Name, Age, Phone number, Email, and Birth date");
-                    System.err.println("We only deal with Google, Outlook, and Yahoo emails.");
+                    System.out.println("Please enter your data as follows: Name, Age, Phone number, Email, and Birth date");
+                    System.out.println("We only deal with Google, Outlook, and Yahoo emails.");
                     System.err.println("Your birth date should be in this form `21/04/2004`");
 
                     Person obj = new Person();
