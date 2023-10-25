@@ -6,15 +6,15 @@ public class BirthDate {
     private int year;
     BirthDate(){}
     public BirthDate(int day, int month, int year) {
-        this.day = day;
-        this.month = month;
-        this.year = year;
+        setDay(day);
+        setMonth(month);
+        setDay(year);
     }
     public BirthDate(String s) {
         String [] arr = s.split("/");
-        this.day=Integer.parseInt(arr[0]);
-        this.month=Integer.parseInt(arr[1]);
-        this.year=Integer.parseInt(arr[2]);
+        setDay(Integer.parseInt(arr[0]));
+        setDay(Integer.parseInt(arr[1]));
+        setDay(Integer.parseInt(arr[2]));
     }
     public int getDay() {
         return day;

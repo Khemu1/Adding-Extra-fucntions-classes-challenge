@@ -11,9 +11,9 @@ public class Person {
     }
 
     public Person(String name, int age, String email, BirthDate obj) {
-        this.name = name;
-        this.age = age;
-        this.email = email;
+        setName(name);
+        setAge(age);
+        setEmail(email);
         this.birthDate = obj;
     }
 
