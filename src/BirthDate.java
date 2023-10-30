@@ -83,6 +83,6 @@ public class BirthDate {
     }
 
     public void printDate() {
-        System.out.println("Birth Date: " + this.getMonth() + "/" + this.getDay() + "/" + this.getYear());
+        System.out.println("Birth Date: " + (this.getMonth() < 10 ? "0"+this.getMonth():this.getMonth() )+ "/" + (this.getDay() < 10 ? "0"+this.getDay():this.getDay() )+ "/" + this.getYear());
     }
 }
